@@ -1,0 +1,67 @@
+div.one-third {
+	width: 47.5%;
+}
+
+div.one-third-second {
+	margin: 0;
+}
+
+div.one-third-last {
+	clear: both;
+	float: none;
+	width: auto;
+	padding: 20px 0 0 0;
+}
+
+div.nav ul li {
+	width: 25%;
+	border-bottom: 1px solid #bababa;
+}
+
+@media screen and (max-width: 620px) {
+	div.nav ul li {
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	
+	div.nav ul li {
+		width: 50%;
+		font-size: 85%;
+	}
+	
+	div.mobile-collapse {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
+	
+	.hide-mobile {
+		display: none;
+	}
+
+    #name{
+        width: 240px;
+        height:  65px;
+        margin: 0 auto;
+    }
+
+    #namespan{
+        background-image: url(../images/namesmall.png);
+        background-repeat: no-repeat;
+        display:block;
+        width: 100%;
+        height: 100%;
+    }
+
+    #profilepic{
+        width:100%; 
+        padding-left:20px;
+    }
+
+    div.header {
+        background-color: #bababa;
+        padding: 10px 0;
+    }
+}
